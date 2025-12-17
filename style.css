@@ -220,3 +220,37 @@ header, section {
 .why h3 {
     margin: 10px 0;
 }
+
+.reviews {
+    background: #f5f5f5;
+}
+
+.reviews h2 {
+    margin-bottom: 30px;
+}
+
+.review-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.review {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 280px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.review:hover {
+    transform: translateY(-6px);
+}
+
+.review span {
+    display: block;
+    margin-top: 10px;
+    color: #fca311;
+}
