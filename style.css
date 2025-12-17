@@ -53,7 +53,9 @@ header p {
 section {
     padding: 40px 20px;
     text-align: center;
+	border-bottom: 1px solid #eaeaea;
 }
+
 
 footer {
     background: #111;
