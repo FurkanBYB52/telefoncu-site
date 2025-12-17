@@ -188,3 +188,40 @@ header, section {
     transform: scale(1.1);
     transition: 0.3s;
 }
+
+.why-us {
+    background: linear-gradient(135deg, #0077b6, #00b4d8);
+    color: white;
+}
+
+.why-us h2 {
+    margin-bottom: 30px;
+}
+
+.why-box {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.why {
+    background: rgba(255,255,255,0.15);
+    padding: 25px;
+    border-radius: 12px;
+    backdrop-filter: blur(5px);
+    transition: transform 0.3s;
+}
+
+.why:hover {
+    transform: translateY(-6px);
+}
+
+.why span {
+    font-size: 32px;
+}
+
+.why h3 {
+    margin: 10px 0;
+}
